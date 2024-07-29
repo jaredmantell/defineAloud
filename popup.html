@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DefineAloud</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>defineAloud</h1>
+    <p class="instructions">Use Ctrl + Space to define selected text</p>
+    <div class="separator"></div>
+    <div class="option">
+      <span>Text-to-Speech:</span>
+      <button id="tts-toggle" class="toggle-btn">ON</button>
+    </div>
+    <div class="separator"></div>
+    <div class="option">
+      <span>Dark Mode:</span>
+      <button id="dark-mode-toggle" class="toggle-btn">OFF</button>
+    </div>
+    <div class="separator"></div>
+    <div class="stats">
+      <p>Words defined: <span id="word-count">0</span></p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
